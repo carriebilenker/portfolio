@@ -1,0 +1,39 @@
+.portfolio {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+
+}
+.porfolio-body {
+  display: flex;
+  flex: 1;
+}
+
+.portfolio-nav {
+  display: flex;
+  flex-direction: row;
+  order: 1;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.portfolio-nav p {
+  display: flex;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.portfolio-content {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  margin-top: 7rem;
+}
+
+.portfolio-content h1 {
+  margin-top: auto;
+
+}

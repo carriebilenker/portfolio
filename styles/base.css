@@ -1,0 +1,24 @@
+/*root font */
+html {font-size: 16px;
+      font-family: "Aria", Gadget, sans-serif
+}
+.portfolio-body {
+  font-family:'Hind Guntur', sans-serif;
+}
+
+.portfolio-nav {
+  height: 1rem;
+  padding-left: 0;
+  background: #000000;
+}
+
+.portfolio-nav p {
+  font-size: .5rem;
+  opacity: 1;
+  color: #ffffff;
+}
+
+.portfolio-content h1 {
+  border-style: solid;
+  padding: 2rem 4rem 1.5rem 4rem;
+}
