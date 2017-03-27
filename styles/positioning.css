@@ -1,16 +1,15 @@
 .portfolio {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
+  justify-content: center;
   flex-wrap: nowrap;
+  align-items: flex-start;
   align-content: center;
-  margin: 0 auto;
+  margin: auto 0;
 
 }
 .porfolio-body {
+  flex-direction: column;
   display: flex;
   flex: 1;
-  margin
 }
 
 .portfolio-nav {
@@ -19,7 +18,7 @@
   order: 1;
   align-items: center;
   justify-content: space-between;
-
+  margin: auto 0;
 }
 
 .portfolio-nav p {

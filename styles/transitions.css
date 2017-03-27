@@ -1,10 +1,13 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 .myname:hover {
-  color: #e3f019;
-}
+    color: rgb(240, 49, 22);
+    width: 20vmin;
+    background-color: rgb(0, 255, 255);
+  }
+
 .about:hover {
-  color: #f03d19;
+  color: #38fbfb;
 }
 
 .project-list:hover {
@@ -24,5 +27,5 @@
 }
 
 .contact:hover {
-    color: #f14d00;
+    color:  #0ef041;
   }
