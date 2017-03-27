@@ -4,11 +4,13 @@
   flex-direction: column;
   flex-wrap: nowrap;
   align-content: center;
+  margin: 0 auto;
 
 }
 .porfolio-body {
   display: flex;
   flex: 1;
+  margin
 }
 
 .portfolio-nav {
@@ -17,7 +19,7 @@
   order: 1;
   align-items: center;
   justify-content: space-between;
-  
+
 }
 
 .portfolio-nav p {

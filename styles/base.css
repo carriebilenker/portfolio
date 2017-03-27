@@ -8,12 +8,11 @@ html {font-size: 16px;
 
 .portfolio-nav {
   height: 1rem;
-  padding-left: 0;
   background: #000000;
 }
 
 .portfolio-nav p {
-  font-size: .5rem;
+  font-size: .45rem;
   opacity: 1;
   color: #ffffff;
 }
