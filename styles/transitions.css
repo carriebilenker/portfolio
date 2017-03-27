@@ -1,0 +1,28 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+.myname:hover {
+  color: #e3f019;
+}
+.about:hover {
+  color: #f03d19;
+}
+
+.project-list:hover {
+  color: #a3dae5;
+}
+
+.k2g:hover {
+  color: #2026d6;
+}
+
+.nonsense:hover {
+  color: #9600dc;
+}
+
+.updates:hover {
+  color: #e3f019;
+}
+
+.contact:hover {
+    color: #f14d00;
+  }
