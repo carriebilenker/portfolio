@@ -52,26 +52,35 @@
                   present then poops in litter box snatches yarn and fights
                   with dog cat chases laser then plays in grass finds tiny spot
                 </h6>
-      </div>
+              </div>
+            </div>
+          </div>
         <div class="row2">
           <div class="col-10">
             <h5> Let's connect! </h5>
             <h6> What's your name? </h6>
-              <label> First Name:
-                <input type="text" name="first name"> <br>
-              </label>
-              <label>  Last Name:
-                <input type="text" name="Last name">
-              </label>
+                <form action="/action_page.php">
+                First Name : <input type="text" name="first name" required>
+                <input type="submit"><br>
+                Last Name:  <input type="text" name="Last name" required>
+                <input type="submit">
+              </form >
             <h6> Would you rather talk via email or phone? </h6>
-            <form>
-              <input type="radio" name="email" value="email"> email
-              <input type="radio" name="call" value="cell number"> phone
-            </form>
+              <form>
+                <input type="radio" name="email" value="email"> email
+                <input type="text"><br>
+                <input type="radio" name="call" value="cell number"> phone
+                <input type="text">
+              </form>
+            <h6> What's your favorite non-answer?</h6>
+            <select name="Answers">
+              <option value = "meh"> Meh </option>
+              <option value = "sure"> Sure </option>
+              <option value = "I guess"> I guess </option>
+              <option value = "could be"> could be </option>
+            </select>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
     </main>
   </body>
 </html>
